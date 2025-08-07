@@ -1,0 +1,77 @@
+/* Additional styles for enhanced features */
+
+/* Disabled app notice */
+#appDisabledNotice {
+    background: rgba(var(--color-error-rgb), 0.1);
+    color: var(--color-error);
+    padding: var(--space-16);
+    border-radius: var(--radius-base);
+    border: 1px solid rgba(var(--color-error-rgb), 0.2);
+    margin-bottom: var(--space-16);
+    text-align: center;
+}
+
+#appDisabledNotice h3 {
+    margin: 0 0 var(--space-8) 0;
+    color: var(--color-error);
+}
+
+/* Enhanced admin controls */
+.admin-section {
+    border: 1px solid var(--color-warning);
+    border-radius: var(--radius-base);
+    padding: var(--space-16);
+    margin-bottom: var(--space-16);
+}
+
+.admin-section h4 {
+    color: var(--color-warning);
+    margin-bottom: var(--space-16);
+}
+
+/* Logo preview */
+.logo-preview {
+    max-width: 170px;
+    max-height: 66px;
+    margin-top: var(--space-8);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+}
+
+/* Mention highlighting */
+.mention-highlight {
+    background: rgba(var(--color-primary-rgb), 0.2);
+    color: var(--color-primary);
+    padding: var(--space-1) var(--space-4);
+    border-radius: var(--radius-sm);
+    font-weight: var(--font-weight-medium);
+}
+
+/* File attachment styles */
+.file-attachment {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    padding: var(--space-8);
+    background: var(--color-bg-2);
+    border-radius: var(--radius-base);
+    margin: var(--space-8) 0;
+}
+
+.file-icon {
+    font-size: var(--font-size-lg);
+}
+
+.file-details {
+    flex: 1;
+}
+
+.file-name {
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text);
+}
+
+.file-size {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
